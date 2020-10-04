@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+@font-face{
+    font-family: Montserrat-medium;
+    src: url("../dist/fonts/Montserrat-Medium.ttf");
+}
+@font-face{
+    font-family: Montserrat-regurlar;
+    src: url("../dist/fonts/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: Montserrat-italic;
+    src: url("../dist/fonts/Montserrat-MediumItalic.ttf");
+}
+@media screen and (min-width:1000px){
+
+    .navbar-nav{
+        margin-left: 60%;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+
+
+}
+.navbar{
+    background-color: rgb(116, 79, 83);
+   
+ }
+ .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     }
+ .navbar-brand{
+     font-family: Montserrat-medium;
+     font-weight: bolder;
+     font-size: 30px;
+     margin-left: 20px;
+
+ }
+ .navbar-nav{
+     font-family: Montserrat-regular;
+ }
+ .sec1{
+
+top: 0vh;
+left: 0;
+width: 100%;
+overflow: hidden;
+background-color: rgb(81, 47, 88);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+  
+ }
+ .modal-content{
+     background-color: rgb(68, 63, 97);
+     color: wheat;
+     font-family: Montserrat-medium;
+     
+ }
+ button.close{
+     background-color: white;
+ }
+ .btn{
+     background-color: rgb(59, 56, 75);
+     margin-top: 2%;
+
+ }
+ .btn:hover{
+    background-color: rgb(80, 74, 114);
+    
+ }
+ .signup-btn{
+     margin-left: 10vw;
+ }
+.sec1-container{
+     border: 2px solid wheat;
+     border-radius: 9px;
+     width: 40vw;
+     height: 60vh;
+     overflow: hidden; 
+     opacity: 0;
+}
+.sec1-container img:hover{
+    transform: scale(1.1);
+}
+.sec1-img{
+    width: 100%;
+    height: 100%;
+transition: all 0.4s ease-in-out;
+}
+.sec1-content{
+    width: 40%;
+    margin-left: 5%;
+    color: wheat;
+    font-family: Montserrat-regular;
+    opacity: 0;
+}
+.sec1-p{
+    font-size: clamp(15px,1.5vw,30px);
+    margin-top: 2%;
+}
+.sec1-head{
+    font-size: clamp(25px,2vw,40px);
+}
+.sec2{
+width: 100%;
+background-color: rgb(86, 111, 128);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.sec2-container{
+    border: 2px solid wheat;
+    border-radius: 9px;
+    width: 35vw;
+    height: 60vh;
+    overflow: hidden; 
+}
+.sec2-container img:hover{
+   transform: scale(1.1);
+}
+.sec2-img{
+   width: 100%;
+   height: 100%;
+transition: all 0.4s ease-in-out;
+}
+.sec2-text{
+    color: whitesmoke;
+    font-family: Montserrat-regular;
+  
+    width: 35vw;
+}
+.sec2-p{
+    font-size: clamp(10px,1.4vw,25px);
+}
+.sec2-head{
+    position: absolute;
+    top: 106vh;
+    left: 30vw;
+    font-size: clamp(20px,2vw,50px);
+    font-family: Montserrat-medium;
+  
+}
+.sec3{
+    width: 100%;
+background-color: rgb(69, 82, 69);
+height: 110vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.sec3-head{
+    color: rgb(255, 245, 226);
+    position: absolute;
+    top: 206vh;
+    left: 30vw;
+    font-size: clamp(20px,2vw,50px);
+    font-family: Montserrat-medium;
+}
+.sec3-p{
+    color: rgb(255, 245, 226);
+    font-size: clamp(15px,1.5vw,40px);
+    font-family: Montserrat-medium;
+   
+}
+.form {
+  
+    display: flex;
+justify-content: center;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat-regular;
+}
+.parent{
+    width: 30%;
+}
+.student{
+    width: 40%;
+}
+.input{
+   width: 20vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 62, 100);
+    font-family: Montserrat-regular;
+  
+}
+.input:focus{
+    background-color: rgb(95, 89, 126);
+    color: rgb(255, 255, 255);
+  
+}
+.form-textarea{
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 62, 100);
+    font-family: Montserrat-regular; 
+    opacity: 0;
+  
+}
+.form-textarea:focus{
+    background-color: rgb(95, 89, 126);
+    color: rgb(255, 255, 255); 
+    
+}
+label{
+    width: 12vw;
+    margin-top: 5px;
+}
+.form-btn{
+ margin-top: -10%;
+ margin-left: -2%;
+}
+.footer{
+    background-color: rgb(26, 10, 2);
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:30vh;
+    padding: 2vw;
+
+
+}
+.footer-heading{
+   margin-top: auto;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: Montserrat-medium;
+}
+
+.active{
+    list-style: none;
+   
+}
+.active a{
+    color: whitesmoke;
+}
+.footer-main{
+  margin-left: 15%;
+}

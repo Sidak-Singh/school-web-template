@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+@font-face{
+    font-family: Montserrat-medium;
+    src: url("../dist/fonts/Montserrat-Medium.ttf");
+}
+@font-face{
+    font-family: Montserrat-regurlar;
+    src: url("../dist/fonts/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: Montserrat-italic;
+    src: url("../dist/fonts/Montserrat-MediumItalic.ttf");
+}
+@media screen and (min-width:1000px){
+
+    .navbar-nav{
+        margin-left: 60%;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+
+
+}
+.navbar{
+    background-color: rgb(116, 79, 83);
+   
+ }
+ .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     }
+ .navbar-brand{
+     font-family: Montserrat-medium;
+     font-weight: bolder;
+     font-size: 30px;
+     margin-left: 20px;
+
+ }
+ .navbar-nav{
+     font-family: Montserrat-regular;
+ }
+ .sec1{
+
+top: 0vh;
+left: 0;
+width: 102%;
+overflow: hidden;
+background-color: rgb(25, 34, 43);
+height: 100vh;
+display: flex;
+align-items: center;
+  
+ }
+.sec1-container{
+     border: 2px solid wheat;
+     border-radius: 9px;
+     width: 55vw;
+    height: 75vh;
+     margin-top: 8%;
+     margin-left: 23vw;
+     overflow: hidden; 
+     opacity: 0;
+ }
+.sec1-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+  
+    transition:all 0.3s ease-out;
+ 
+}
+.sec1-container img:hover{
+    transform: scale(1.1);
+}
+
+.sec1-text{
+    opacity: 0;
+    position: absolute;
+    top: 42vh;
+    left: 49vw;
+    z-index: 4;
+    color: rgb(255, 246, 246);
+    font-size: clamp(20px,2.5vw,60px);
+    font-family: Montserrat-medium;
+    
+}
+.line1{
+    width:9vw;
+    height: 3px;
+    background-color: wheat;
+    position: absolute;
+    top: 3.5vw;
+}
+.line2{
+    width:17vw;
+    height: 3px;
+    background-color: wheat;
+    position: absolute;
+    top: 13vh;
+    left: 5vw;
+}
+.sec2{
+    background-color: rgb(49, 42, 51);
+    align-items: center;
+    justify-content: space-evenly;
+    width:102%;
+    height:100vh;
+    padding: 2vw;
+    display: flex;
+    flex-direction:column ;
+}
+.sec2-heading{
+    color: wheat;
+    font-size: clamp(20px,3vw,60px);
+    font-family: Montserrat-medium;
+
+}
+.sec2-p{
+    color: whitesmoke;
+    font-size: clamp(15px,1.5vw,50px);
+    font-family: Montserrat-regular;
+  width: 40vw;
+}
+.sec3{
+    background-color: rgb(46, 44, 73);
+    align-items: center;
+    justify-content: space-evenly;
+    width:102%;
+    height:90vh;
+    padding: 2vw;
+    display: flex;
+     
+}
+.sec3-container{
+    border: 2px solid wheat;
+    border-radius: 9px;
+    width: 40vw;
+     height: 45vh;
+     filter: blur(10px);
+}
+.sec3-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+opacity: 0.5;
+}
+.sec3-head{
+    color: rgb(235, 223, 250);
+    font-size: clamp(25px,2.8vw,55px);
+    font-family: Montserrat-medium;
+position: absolute;
+top: 205vh;
+left: 32vw;
+
+    
+}
+.sec3-text{
+    width: 50%;
+    color: rgb(235, 223, 250);
+    font-size: clamp(15px,1.5vw,40px);
+    font-family: Montserrat-italic;
+}
+.sec3-name{
+    position: absolute;
+    top: 263vh;
+    left: 72vw;
+    font-size: clamp(20px,1.8vw,55px);
+    font-family: Montserrat-medium;
+
+}
+.sec4{
+    background-color: rgb(35, 39, 31);
+    align-items: center;
+    justify-content: space-evenly;
+    width:102%;
+    height:90vh;
+    padding: 2vw;
+    display: flex;
+}
+.sec4-container{
+width: 40vw;
+height: 60vh;
+border: 2px solid wheat;
+border-radius: 9px;
+overflow: hidden;
+
+}
+.sec4-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    transition: all 0.4s ease-in-out;
+}
+.sec4-container img:hover{
+    transform: scale(1.1);
+}
+.sec4-head{
+    color: rgb(235, 223, 250);
+    font-size: clamp(25px,2.8vw,55px);
+    font-family: Montserrat-medium;
+    position: absolute;
+    top: 293vh;
+  
+}
+.sec4-text{
+    width: 50%;
+    color: rgb(235, 223, 250);
+    font-size: clamp(15px,1.5vw,40px);
+    font-family: Montserrat-regular;
+}
+.footer{
+    background-color: rgb(26, 10, 2);
+    align-items: center;
+    justify-content: center;
+    width:102%;
+    height:30vh;
+    padding: 2vw;
+
+
+}
+.footer-heading{
+   margin-top: auto;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: Montserrat-medium;
+}
+
+.active{
+    list-style: none;
+   
+}
+.active a{
+    color: whitesmoke;
+}
+.footer-main{
+  margin-left: 15%;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap requirement -->
+    <link rel="stylesheet" href="../dist/libraries/bootstrap/bootstrap.min.css">
+    <script defer src="../dist/libraries/bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="../dist/libraries/bootstrap/popper.min.js"></script>
+    <script defer src="../dist/libraries/bootstrap/bootstrap.min.js"></script>
+    <!-- Gsap library -->
+    <script defer src="../dist/libraries/gsap.min.js"></script>
+    
+    <!-- stylesheeet -->
+    <link rel="stylesheet" href="../styles/admission.css">
+    <!-- Script -->
+    <script defer src="../js/admission.js"></script>
+    <title>Memory Rise</title>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg fixed-top">
+        <a class="navbar-brand text-white" href="/pages/home.html"><img class="img-fluid logo" src="../dist/media/logo.jpg" alt=""> Memory Rise</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/pages/home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                   <a class="nav-link" href="/pages/about.html">About Us</a>
+               </li>
+            
+               <li class="nav-item active">
+                   <a class="nav-link" href="/pages/admission.html">Admission</a>
+               </li>
+            </ul>
+        </div>
+    </nav>
+<!-- section1 -->
+<div class="sec1">
+    <div class="sec1-container">
+        <img class="img-fluid sec1-img" src="../dist/media/family-loves.jpg" alt="">
+    </div>
+    <div  class="sec1-content">
+<div class="sec1-head">Join Memory Rise Family</div>
+<div class="sec1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ea unde error maiores iusto, vitae, debitis fugiat magni accusamus officiis corrupti. Nesciunt culpa molestiae soluta modi. Accusantium doloremque amet officiis!</div>
+<a class="admission-btn btn btn-primary" type="button">Go For Admission</a>
+<!-- Button trigger modal -->
+<a type="button" class="signup-btn btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    Sign Up for Email List
+</a>
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+  
+              <input required type="text" class="form-control" placeholder="Name" aria-label="Name" >
+            </div>
+            
+            <div class="input-group">
+            
+              <input required type="email" class="form-control"placeholder="Email"></input>
+            </div>
+                  </div>
+             
+      
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal end -->
+</div>
+</div>
+<!-- section1 end -->
+<!-- section2 -->
+<div class="sec2">
+<div class="sec2-container">
+    <img class="img-fluid sec2-img" src="../dist/media/abc.jpg" alt="">
+</div>
+<div class="sec2-text">
+    <div class="sec2-head">
+        Why You Should Choose Memory Rise
+    </div>
+    <div class="sec2-p">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt pariatur quae labore ut repellat aut quasi nam doloremque! Eos laborum iure nobis ab neque expedita quis voluptatum quos, praesentium ad!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae doloribus quaerat et temporibus, perferendis quae repellendus provident odio minus eaque laudantium harum dolores, exercitationem deleniti corrupti veritatis. Ratione, mollitia nemo!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dignissimos corporis reiciendis ducimus nemo incidunt, fugiat labore laudantium? Doloribus suscipit excepturi sit in et esse quisquam magni placeat voluptatum alias!
+    </div>
+</div>
+</div>
+
+<!-- section2 end -->
+<!-- section3 -->
+<div class="sec3">
+ <div class="sec3-head">Please Fill in The Form For Admission</div>
+ <div class="sec3-p">
+     Please fill in the form below and One of our Teachers will contact u soon regarding the Admission. <br>
+     &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+      &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
+      &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
+      Thanks for Choosing Memory Rise
+ </div>
+ <div class="form">
+    <div class="form-group form col">
+       
+            <div class="parent">
+        <div class="parentname col-md-3">
+            <label for="my-input">Parent's Name</label><br>
+            <input  class="form-control input required" type="text" name="">
+        </div>
+        <div class="parentemail col-md-3">
+            <label for="my-input">Parent's Email</label><br>
+            <input  class="input form-control" type="email" name="">
+        </div>
+        <div class="parentphone col-md-3">
+            <label for="my-input">Parent's Phone No.</label><br>
+            <input id="my-input2" class="input form-control" type="number" name="">
+        </div>
+        <div class="parentphone col-md-3">
+            <label for="my-input">Address</label><br>
+            <textarea id="my-input2" rows="4" class="input form-control" type="text" name=""></textarea>
+        </div>
+    </div>
+    <div class="student">
+        <div class="studentname col-md-3">
+            <label for="my-input">Student's Name</label><br>
+            <input  class="input form-control" type="text" name="">
+        </div>
+        <div class="studentemail col-md-3">
+            <label for="my-input">Student's Age</label><br>
+            <input  class="input form-control" type="number" name="">
+        </div>
+        <div class="studentDOB col-md-3">
+            <label for="my-input">Student's DOB</label><br>
+            <input  class="input form-control" type="date" name="">
+        </div>
+    </div>
+    
+       
+
+ </div>
+    </div>
+    <button type="button" class="btn form-btn btn-success">Submit</button>
+    </div>
+    <!-- section3 end -->
+  <!-- footer -->
+<div class="footer">
+    <div class="row footer-main">
+    <div class="links col-md-6">
+        <ul class="mr-auto">
+            <li class="active">
+                <a href="/pages/home.html">Home</a>
+            </li>
+            <li class="active">
+               <a  href="/pages/about.html">About Us</a>
+           </li>
+        
+           <li class="active">
+               <a  href="/pages/admission.html">Admission</a>
+           </li>
+        </ul>
+    </div>
+    <div class="Follow col-md-6">
+        <ul class="mr-auto">
+            <li class="active">
+                <a href="#">Facebook</a>
+            </li>
+            <li class="active">
+               <a  href="#">Twitter</a>
+           </li>
+        </ul>
+    </div>
+</div>
+    <div class="footer-heading text-center">Memory Rise</div>
+</div>
+<!-- footer end -->
+</body>
+</html>
+</body>
+</html>
