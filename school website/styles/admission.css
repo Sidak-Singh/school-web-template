@@ -186,6 +186,7 @@ justify-content: center;
   color: rgb(255, 255, 255);
   font-family: Montserrat-regular;
 }
+
 .parent{
     width: 30%;
 }
@@ -233,6 +234,11 @@ label{
     padding: 2vw;
 
 
+}
+.fol{
+
+    color: white;
+    font-size: 30px;
 }
 .footer-heading{
    margin-top: auto;
