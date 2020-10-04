@@ -238,6 +238,11 @@ overflow: hidden;
     list-style: none;
    
 }
+.fol{
+
+    color: white;
+    font-size: 30px;
+}
 .active a{
     color: whitesmoke;
 }
